@@ -1,10 +1,13 @@
 # helloworld
- really simple docker container test
+ really simple docker container test.
+
+ this container just runs an express HTTP server that prints the value of `HELLO` and `APP_VERSION` (see package.json) environment variables along with this funny little sun-glasses ASCII art:
 
 ```
 (•_•) 
 ( •_•)>⌐■-■ 
 (⌐■_■) 
+
 hello world!
 ```
 
