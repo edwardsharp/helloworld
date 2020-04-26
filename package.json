@@ -1,0 +1,26 @@
+{
+  "name": "helloworld",
+  "version": "0.0.1",
+  "description": "really simple docker container test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardsharp/helloworld.git"
+  },
+  "author": "edwardsharp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardsharp/helloworld/issues"
+  },
+  "homepage": "https://github.com/edwardsharp/helloworld#readme",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
